@@ -94,8 +94,8 @@ paginate_path:         /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 # TODO FIXME gitpage 배포시 theme 를 주석처리하고 push,
-#theme: jekyll-theme-hydejack
-remote_theme: hydecorp/hydejack@v9
+theme: jekyll-theme-hydejack
+#remote_theme: hydecorp/hydejack@v9
 
 
   # Customizaton
@@ -199,6 +199,19 @@ kramdown:
 comments:
   # 'disqus' / 'giscus' / 'utterances' are available
   provider:            giscus
+
+
+giscus:
+  repo:                "meiday456/meiday456.github.io"
+  repo-id:             "R_kgDOJbrsUA"
+  category :           "Comments"
+  category-id:         "DIC_kwDOJbrsUM4CWFeg"
+  mapping:             "pathname"
+  strict:              "0"
+  theme:               "light"
+  reaction-enabled:    "1"
+  lang:                "ko"
+  crossorigin:         "anonymous"
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
