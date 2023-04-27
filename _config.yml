@@ -19,7 +19,9 @@ url: https://meiday456.github.io/
 lang:                  ko
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Meiday Blog
+title:                 Meiday
+timezone:              Asia/Seoul
+encoding:              UTF-8
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -32,8 +34,13 @@ tagline: |
   제대로 아는 것이 아니다. "
 
 # A list of keywords for your blog
-keywords:              [react, redux, redux-saga, react-query, recoil,
-                        front, front-end, kangseongjin, meiday, develop, javascript, typescript, jest]
+keywords:              ["react", "front", "front-end", "kangseongjin", "meiday", "develop", "javascript", "typescript", "jest"]
+
+
+favicon: /assets/img/favicon/favicon.ico
+apple_touch_icon: /assets/img/favicon/apple-touch-icon.png
+icon-512x512.png: /assets/img/favicon/android-chrome-512x512.png
+icon-192x192.png: /assets/img/favicon/android-chrome-192x192.png
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -41,35 +48,40 @@ keywords:              [react, redux, redux-saga, react-query, recoil,
 logo:                  /assets/img/logo.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
+# 작성자 정보
 author:
-  # Used by `jekyll-feed`:
   name:                SeongJin Kang
   email:               sjkang0228@gmail.com
+  picture:             /assets/img/me.jpg
   social:
     github: meiday456
+    email: sjkang0228@gmail.com
 
 
-# Add links to the sidebar.
-menu:
-  - title:             Example
-    url:               /example/
-  - title:             Documentation
-    url:               /docs/
-  - title:             About
-    url:               /about/
+## Add links to the sidebar.
+## 사이드 바 메뉴
+#menu:
+#  - title:             Blog
+#    url:               /blog/
+#  - title:             TIL
+#    url:               /til/
+#  - title:             Hobby
+#    url:               /hobby/
+#  - title:             Resum
+#    url:               /resume/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
-legal:
-  - title:             LICENSE
-    url:               /LICENSE/
-  - title:             NOTICE
-    url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
+#legal:
+#  - title:             LICENSE
+#    url:               /LICENSE/
+#  - title:             NOTICE
+#    url:               /NOTICE/
+#  - title:             CHANGELOG
+#    url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2021. All rights reserved.
+copyright:             © 2023.04 By Meiday.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
@@ -81,7 +93,7 @@ paginate_path:         /:num/
 
 # Theme
 # ---------------------------------------------------------------------------------------
-
+# TODO FIXME gitpage 배포시 theme 를 주석처리하고 push,
 #theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9
 
@@ -90,8 +102,8 @@ remote_theme: hydecorp/hydejack@v9
   # ----------------------------------------------------------------------------------------
 
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          rgb(255,150,101)
+accent_image:          /assets/img/sidebar-bg.jpg # 사이드 바 이미지
+accent_color:          rgb(255,150,101)           # 페이지 전반의 밑줄이나, accent 색상
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
@@ -124,6 +136,11 @@ defaults:
       accent_image:
         background:    rgb(32,32,32)
         overlay:       false
+  - scope:
+      type: posts
+    values:
+      comments:         true
+      applause_button:  true
 
   # Don't include documents in assets in the sitemap
   - scope:
@@ -178,9 +195,15 @@ kramdown:
 # pages with `comments: true` in the front matter.
 # disqus:                <username>
 
+# Set which comment system to use
+comments:
+  # 'disqus' / 'giscus' / 'utterances' are available
+  provider:            giscus
+
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
 # tinyletter:            <username>
+
 
 
 # Hydejack Settings

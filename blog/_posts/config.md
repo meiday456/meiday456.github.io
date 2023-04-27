@@ -118,7 +118,7 @@ google_fonts: Roboto+Slab:700|Noto+Sans:400,400i,700,700i
 The `google_fonts` key is the string necessary to fetch the fonts from Google.
 You can get it from the download page at [Google Fonts](https://fonts.google.com) after you've selected one or more fonts:
 
-![Where to get the google_fonts string](../assets/img/docs/google-fonts.png){:width="600" height="398" loading="lazy"}
+![Where to get the google_fonts string](../../assets/img/docs/google-fonts.png){:width="600" height="398" loading="lazy"}
 
 
 ### Removing Google Fonts
@@ -212,7 +212,7 @@ paginate:      10
 paginate_path: /my-blog/:num/ #!!
 ~~~
 
-To add an entry in the sidebar to your blog directory, see [Adding an entry to the sidebar](./basics.md#adding-an-entry-to-the-sidebar).
+To add an entry in the sidebar to your blog directory, see [Adding an entry to the sidebar](basics.mddding-an-entry-to-the-sidebar).
 
 
 ## Adding an author

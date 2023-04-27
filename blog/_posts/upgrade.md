@@ -12,8 +12,8 @@ This chapter shows how to upgrade Hydejack to a newer version. The method depend
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
-Before upgrading to v7+, make sure you've read the [CHANGELOG](../CHANGELOG.md){:.heading.flip-title},
-especially the part about the [license change](../CHANGELOG.md#license-change)!
+Before upgrading to v7+, make sure you've read the [CHANGELOG](../../CHANGELOG.md){:.heading.flip-title},
+especially the part about the [license change](../../CHANGELOG.md#license-change)!
 {:.note}
 
 ## Free version
@@ -26,7 +26,7 @@ bundle update jekyll-theme-hydejack
 ## PRO Version
 
 In v9, the structure of Hydejack PRO sites has changed. If you're looking to upgrade from v8 or earlier, 
-check out [Installation for existing sites](./install.md#existing-sites) instead.
+check out [Installation for existing sites](install.mdxisting-sites) instead.
 {:.note}
 
 Buyers of the PRO version will find the files necessary for an upgrade in the `#jekyll-theme-hydejack` folder of the downloaded zip archive.

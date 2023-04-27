@@ -294,7 +294,7 @@ You can read more about it [here](https://github.com/penibelst/jekyll-compress-h
 {:.note}
 
 ## Adding math
-Before adding math blocks, make sure you've [set up math support](./config.md#enabling-math-blocks).
+Before adding math blocks, make sure you've [set up math support](config.mdnabling-math-blocks).
 
 ### Inline
 Example:
