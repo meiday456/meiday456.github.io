@@ -5,7 +5,7 @@ title: Tech
 slug: tech
 menu: true
 sidebar: true
-order: 1
+order: 2
 sitemap: true
 description: >
     기술 Post 기록

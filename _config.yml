@@ -61,7 +61,7 @@ author:
 ## Add links to the sidebar.
 ## 사이드 바 메뉴
 #menu:
-#  - title:             Blog
+#  - title:             blog
 #    url:               /blog/
 #  - title:             TIL
 #    url:               /til/

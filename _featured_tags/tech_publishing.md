@@ -1,10 +1,10 @@
 ---
 layout: tag-list
 type: tag
-title: Javascript
-slug: javascript
+title: Publishing
+slug: publishing
 category: tech
 sidebar: true
 description: >
-    Javascript Post
+    web publishing
 ---

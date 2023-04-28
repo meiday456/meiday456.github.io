@@ -2,8 +2,8 @@
 layout : post
 title : "테스트 작성"
 subtitle: "테스트"
-category : tech
-tags: javascript
+category : demo
+tags: demo
 ---
 
 테스트 작성 문서입니다.
