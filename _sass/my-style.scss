@@ -78,28 +78,6 @@ applause-button {
   }
 }
 
-// <<<<< INLINE
-.sidebar-sticky {
-  position: absolute;
-  height: 95%;
-  padding-top: 5%;
-}
-
-.sidebar-nav-item {
-  width:100%;
-  font-weight: normal;
-  padding: .25rem 0;
-}
-
-.sidebar-nav-subitem {
-  //extends .f4;
-  font-weight: normal;
-  display: inline-block;
-  line-height: 1.75;
-  padding: .25rem 0;
-}
-// >>>>>
-
 .list-wrapper {
   text-align: left;
   display: flex;

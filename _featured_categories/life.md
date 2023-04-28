@@ -2,7 +2,7 @@
 layout: list
 type : category
 title: Life
-slug: hobby
+slug: life
 menu: true
 sidebar: true
 order: 2
