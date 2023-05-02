@@ -16,7 +16,7 @@ url: https://meiday456.github.io/
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  ko
+lang:                  ko-KR, en-US
 
 # The title of your blog. Used in the sidebar and the browser tab.
 title:                 Meiday
@@ -81,7 +81,7 @@ author:
 #    url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2023.04 By Meiday.
+copyright:             © 2023.04 All rights reserved.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
@@ -89,7 +89,6 @@ permalink:             /:categories/:year-:month-:day-:title/
 # Pagination configuration (used by the `blog` layout)
 paginate:              10
 paginate_path:         /:num/
-
 
 # Theme
 # ---------------------------------------------------------------------------------------
@@ -199,7 +198,6 @@ kramdown:
 comments:
   # 'disqus' / 'giscus' / 'utterances' are available
   provider:            giscus
-
 
 giscus:
   repo:                "meiday456/meiday456.github.io"

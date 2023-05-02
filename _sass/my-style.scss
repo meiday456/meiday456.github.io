@@ -121,3 +121,79 @@ input[type="checkbox"]:checked ~ ul{
   transition: transform .2s ease-out;
   transform: scaleY(1);
 }
+
+
+// Image centering
+.text-align-center {
+  text-align: center;
+}
+
+img.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+//Previous Next Posts
+.PageNavigation {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+
+  p{
+    display: inline;
+  }
+
+  a{
+    border: 1px solid antiquewhite;
+    border-radius: 10px;
+    color: var(--accent-color);
+    padding: 3px 11px 3px 8px;
+
+    text-decoration: none;
+
+    &.prev{
+      transition: 0.3s;
+      &:hover {
+        background: transparent;
+        box-shadow: inset -90px 0 0 0 var(--accent-color);
+        color : #fff;
+      }
+    }
+
+
+    .disabled{
+      text-decoration-color : rgb(86, 91, 101) !important;
+      cursor : not-allowed;
+    }
+
+
+    &.next{
+      padding: 3px 8px 3px 11px;
+      transition: 0.3s;
+
+      &:hover {
+        background: transparent;
+        box-shadow: inset 90px 0 0 0 var(--accent-color);
+        color : #fff;
+      }
+    }
+
+    //&:hover{
+    //  background-color: rgb(255,229,200);
+    //}
+  }
+
+  .material-icons {
+    font-size: 14px;
+  }
+
+  .disabled{
+    .material-icons{
+      font-weight : 900;
+    }
+  }
+}
+
