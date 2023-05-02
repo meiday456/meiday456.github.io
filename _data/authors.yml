@@ -8,11 +8,13 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    웹 개발을 하고있는 강성진이라고 합니다.
     
-    Open `_data/authors.yml` to edit this text.
+    백엔드로 시작하여 프론트엔드 전향을 목표로 공부하고 있고 <br>
+    경험하고, 기록하는 것을 좋아합니다.
+    
+    DevOps, CI/CD, 자동화 등에도 관심이 많고,
+    리팩토링을 즐기고 있습니다.
 
   # This photo will be used in the about section
   picture:
