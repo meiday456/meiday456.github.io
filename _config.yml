@@ -26,7 +26,7 @@ encoding:              UTF-8
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  front end developer , kang seong jin blog
+  프론트엔드 개발자 강성진입니다.
 
 # A shorter description for the sidebar.
 tagline: |
@@ -34,7 +34,7 @@ tagline: |
   제대로 아는 것이 아니다. "
 
 # A list of keywords for your blog
-keywords:              ["react", "front", "front-end", "kangseongjin", "meiday", "develop", "javascript", "typescript", "jest"]
+keywords:              ["react", "front", "front-end", "kangseongjin", "meiday", "develop", "javascript", "typescript", "jest", "메이데이"]
 
 
 favicon: /assets/img/favicon/favicon.ico

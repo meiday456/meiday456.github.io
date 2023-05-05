@@ -68,17 +68,17 @@ author1:
     # keybase          <username>
 
 # Another author (optional)
-author2:
-  name:              SeongJin Kang
-  email:             sjkang0228@gmail.com
-  about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-    Open `_data/authors.yml` to edit this text.
-
-  picture:
-    path: /assets/img/me.jpg
-  twitter:           <username>
-  github:            <username>
+#author2:
+#  name:              SeongJin Kang
+#  email:             sjkang0228@gmail.com
+#  about:             |
+#    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+#    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+#    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+#
+#    Open `_data/authors.yml` to edit this text.
+#
+#  picture:
+#    path: /assets/img/me.jpg
+#  twitter:           <username>
+#  github:            <username>

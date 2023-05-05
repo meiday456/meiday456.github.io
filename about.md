@@ -52,9 +52,7 @@ hide_description: true
             <span class="badge">Docker</span>
             <span class="badge">Github Actions</span>
             <span class="badge">...</span>
-            
         </div>
-        
     </div>
 </div>
 {:.row}
