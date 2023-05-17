@@ -138,7 +138,31 @@ const Item = (props: Props): React.ReactElement => {
 - width : deviceSizes 설정과 연관되어 viewport에 따라 다르게 값을 전달받음
 - quality : Image 컴포넌트에 정의한 quality 속성
 
-Custom Loader를 사용하여 width에 따라 다르게 src를 호출하도록 변경하여 LCP를 개선하였습니다.
+<br/>
+
+Utils.tsx
+{:.note title="file"}
+- viewport width에 따라 uri parameter를 변경하기 위한 함수
+- [thmemoviedb]는 이미지를 original(높은 해상도) w200 ~ 500 까지의 이미지를 제공합니다.
+
+```typescript
+export function getItemImgWPath(width: number, type: "banner" | "content" = "content") {
+  let w = "w500";
+  if (type === "banner") {
+    return "original";
+  }
+  if (0 <= width && width <= 1000) {
+    w = "w300";
+  } else if (1001 <= width && width <= 1400) {
+    w = "w400";
+  } else {
+    w = "w500";
+  }
+  return w;
+}
+```
+
+Custom Loader를 사용하여 width에 따라 반응형으로 src를 호출하도록 변경하여 LCP를 개선하였습니다.
 
 ## 적용 결과
 
@@ -149,6 +173,11 @@ Custom Loader를 사용하여 width에 따라 다르게 src를 호출하도록 �
 적용 전 / 적용 후
 {:.figcaption}
 
+
+>Reference
+>- https://nextjs.org
+>- https://hyeyeong1011.github.io/2020-05-17-post45/
+>- https://heropy.blog/2019/06/16/html-img-srcset-and-sizes/
 
 <!-- Links -->
 [thmemoviedb]: https://www.themoviedb.org
