@@ -19,10 +19,8 @@
 <nav class="page-navigation">
   {% if prev_post %}
   <a href="{{ prev_post.url }}" class="prev">
-      <span class="material-icons">
-        arrow_back_ios
-      </span>
-      <p> 이전글 </p>
+    <span class="material-icons">arrow_back_ios</span>
+    <p>이전글</p>
   </a>
   {% else %}
     <div></div>
@@ -30,10 +28,8 @@
 
   {% if next_post %}
   <a href="{{ next_post.url }}" class="next">
-      <p> 다음글 </p>
-      <span class="material-icons">
-        arrow_forward_ios
-      </span>
+    <p> 다음글 </p>
+    <span class="material-icons">arrow_forward_ios</span>
   </a>
   {% else %}
     <div></div>
