@@ -20,15 +20,14 @@
   {% if prev_post %}
   <a href="{{ prev_post.url }}" class="prev">
     <span class="material-icons">arrow_back_ios</span>
-    <p>이전글</p>
+    이전글
   </a>
   {% else %}
     <div></div>
   {% endif %}
 
   {% if next_post %}
-  <a href="{{ next_post.url }}" class="next">
-    <p> 다음글 </p>
+  <a href="{{ next_post.url }}" class="next">다음글
     <span class="material-icons">arrow_forward_ios</span>
   </a>
   {% else %}
