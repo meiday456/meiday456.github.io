@@ -2,8 +2,8 @@
 layout:     post
 title:      Next.JS Image 최적화
 subtitle:   srcset과 sizes, 설정등을 활용하여 이미지 최적화
-categories: tech
-tags:       fe , next
+categories: [tech]
+tags:       [fe , next]
 ---
 
 1. 순서가 있는 목차
@@ -32,7 +32,7 @@ tags:       fe , next
 
 
 공식문서에 나와있는 것 처럼 Image 컴포넌트 사용은 굉장히 간단하게 사용할 수 있습니다.
-```javascript
+```jsx
 import Image from 'next/image';
  
 export default function Page() {
@@ -104,7 +104,7 @@ const nextConfig = {
 Item.tsx
 {:.note title="file"}
 
-```typescript
+~~~tsx 
 const Item = (props: Props): React.ReactElement => {
   const imageLoader = ({src, width, quality}: ImageLoaderProps) => {
     return `${urls.common.image(src, "content", width)}?w=${width}&q=${quality || 75}`;
@@ -131,7 +131,7 @@ const Item = (props: Props): React.ReactElement => {
     </ItemStyle>
   );
 };
-```
+~~~
 `Loader` 설정은 `Custom Loader` 함수를 정의하여 속성에 부여하는 것으로 설정이 간단하게 됩니다.<br/>
 `Loader` 함수는 인자로 `ImageLoaderProps : {src:string, width:number, quality:number}`를 받을 수 있습니다.
 - src : Image 컴포넌트에 정의한 src 속성

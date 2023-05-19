@@ -23,18 +23,18 @@
             {{ ' ' }}
             {%- assign category_start     = site.data.strings.category_start     | default:"in " -%}
             {%- assign category_separator = site.data.strings.category_separator | default:" / " -%}
+            {%- include components/tag-list.html tags=post.categories meta=site.featured_categories start_with=category_start separator=category_separator -%}
             {{ ' ' }}
             {%- assign tag_start          = site.data.strings.tag_start          | default:"on " -%}
             {%- assign tag_separator      = site.data.strings.tag_separator      | default:", "  -%}
+            {%- include components/tag-list.html tags=post.tags meta=site.featured_tags start_with=tag_start separator=tag_separator -%}
 
             {% if post.applause_button %}
             {{ ' ' }}
             <span class="clap-count" data-url="{{ post.url | absolute_url }}"></span>
             {% endif %}
             {% endcapture %}
-            <span class="ellipsis mr1">
-        {{ foobar }}
-      </span>
+            <span class="ellipsis mr1">{{ foobar }}</span>
             {% unless site.hydejack.hide_dates or site.hydejack.hide_last_modified or post.hide_last_modified %}
             {% if post.last_modified_at %}
             {% assign d1 = post.date             | date:"%Y-%m-%d" %}

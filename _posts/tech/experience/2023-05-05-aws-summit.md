@@ -2,8 +2,8 @@
 layout:     post
 title:      2023 AWS Summit Seoul
 subtitle:   3년만에 다시 열린 Offline Conference
-categories: tech
-tags:       experience
+categories: [tech]
+tags:       [experience]
 ---
 
 1. 순서가 있는 목차
