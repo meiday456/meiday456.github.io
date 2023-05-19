@@ -202,7 +202,7 @@ comments:
 giscus:
   repo:                "meiday456/meiday456.github.io"
   repo-id:             "R_kgDOJbrsUA"
-  category :           "Comments"
+  category :           "General"
   category-id:         "DIC_kwDOJbrsUM4CWFeg"
   mapping:             "pathname"
   strict:              "0"
