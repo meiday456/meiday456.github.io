@@ -229,7 +229,7 @@ snapshot 결과
     unmount()
 ~~~
 
-### 
+### asFragment
 - `rendering`된 컴포넌트의 `DocumentFragment`를 반환하는 함수
 - 초기 컴포넌트 상태를 가지고있기때문에 컴포넌트의 변화를 `toMatchDiffSnapshot()` 등으로 비교할 수 있습니다.
 ```tsx
