@@ -1,11 +1,11 @@
 ---
 layout: tag-list
 type: tag
-title: Next
-slug: next
+title: Test
+slug: test
 category: tech
 order: 100
 sidebar: false
 description: >
-    nextJs
+    Test
 ---
