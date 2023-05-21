@@ -207,42 +207,46 @@ img.centered {
   column-gap: 6rem;
   align-items: flex-start;
 
-  div:nth-child(1){
+  div:nth-child(1) {
     flex-basis: 240px
   }
 
-  div:nth-last-child(-n+1){
-    flex-grow :1;
-    h4{
+  div:nth-last-child(-n+1) {
+    flex-grow: 1;
+
+    h4 {
       margin: 0;
       font-weight: 400;
     }
   }
 
-  ul{
-    li{
+  ul {
+    li {
       font-size: 14px;
     }
   }
-  div{
+
+  div {
     font-size: 15px;
   }
-  span{
-    &.badge{
+
+  span {
+    &.badge {
       display: inline-block;
       padding: 0.25em 0.4em;
       font-size: 75%;
       border-radius: 5px;
-      color:#fff;
+      color: #fff;
       background-color: #565b65;
     }
   }
 }
 
-.primary{
+.primary {
   color: var(--accent-color);
 }
-.notice{
+
+.notice {
   border-radius: 5px;
-  background-color: rgb(227 221 219);
+  background-color: rgb(227, 221, 219);
 }
