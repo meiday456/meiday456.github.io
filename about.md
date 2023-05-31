@@ -3,7 +3,6 @@ layout: about
 sidebar : true
 order : 1
 hide_description: true
-
 ---
 
 # About
