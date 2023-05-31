@@ -9,7 +9,7 @@ tags:       [publishing,css]
 1. 순서가 있는 목차
 {:toc}
 
-## 개요
+### 개요
 CSS 란 `Cascading Style Sheets`{:.primary} 의 약어로 <br/>
 직역하면 `위에서 아래로 내려가는(폭포처럼) 스타일 문서` 정도로 이해할 수 있는데요.
 
@@ -312,6 +312,13 @@ input:focus{
 | :lang() | HTML lang 속성값이 ()로 지정된 요소를 선택 |
 | :target | # target으로 이동이 된 요소를 선택      |
 
+***
+### 맺음
+**`CSS`**{:.primary}를 작성하기 위해 가장 기초가 되는 **`Selector`**{:.primary}에 대해서 알아보았는데요.<br/>
+이렇게 작성한 것을 바로 써보고 하는것이 정말 좋지만,<br/>
+막상 응용이 잘 안될때나 시작은 심심풀이로 [게임]을 해보시는건 어떨까요?<br/>
+
 
 <!-- Links -->
 [가상클래스]: https://developer.mozilla.org/ko/docs/Web/CSS/Pseudo-classes
+[게임]: https://flukeout.github.io/
