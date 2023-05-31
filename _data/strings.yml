@@ -51,9 +51,9 @@ cookies_banner:
 not_found:
   title:               '404: Page Not Found'
   message:             |
-    Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
-    <!--home_link--> to try finding it again.
-  home_link:           Head back home
+    요청 하신 페이지가 존재하지않거나, 잘못 되어있을 수 있습니다.<br/>
+    <!--home_link--> 으로 돌아가거나 다시 요청해주십시오.
+  home_link:           HOME
 
 offline:
   title:               'You are Offline'
