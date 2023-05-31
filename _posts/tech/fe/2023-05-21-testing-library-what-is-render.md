@@ -65,7 +65,7 @@ export interface RenderOptions<
 
 ### container
 
-- `render`{:.primary}는 default로 <div>로 감산 후 `document.body`에 append 하는 방식으로 컴포넌트를 rendering 합니다.
+- `render`{:.primary}는 default로 <div>로 감싼 후 `document.body`에 append 하는 방식으로 컴포넌트를 rendering 합니다.
 - 해당 `option`을 활성화하면 `div`가 아닌 다른 `Element`를 `container` 사용할 수 있습니다.
 
 ```tsx
