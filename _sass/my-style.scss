@@ -250,3 +250,11 @@ img.centered {
   border-radius: 5px;
   background-color: rgb(227, 221, 219);
 }
+table{
+  &.indent-1{
+    margin-left: 1rem;
+  }
+  &.indent-2{
+    margin-left: 2rem;
+  }
+}
