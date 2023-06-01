@@ -154,7 +154,7 @@ input[value |="btn"] {
 ##### 맺음 선택자
 - `[속성이름 $= "속성값"]` : 속성값으로 **끝맺음** 하는 요소를 찾습니다.
   {% include components/codepen.html hash="MWPdZjv" title="attribute selector 7" %}<br/>
-~~~css
+~~~css중
 input[value$="버튼"] {
   background-color: yellow;
 }
@@ -289,7 +289,7 @@ input:focus{
 | :nth-last-of-type() | 모든 자식요소 중 ()의 조건에 해당하는 요소를 뒤에서 부터 모두 선택       |
 | :only-child         | 자식요소로 오직 단 하나의 요소를 가지는 요소를 선택                 |
 | :only-of-type       | 자식요소로 오직 단 하나의 Type의 요소를 가지는 요소를 선택           |
-| :empty              | 자식 요소를 하나도 가지지않는 요소를 모두 선택                    |
+| :empty              | 자식 요소를 하나도 가지지 않는 요소를 모두 선택                   |
 | :root               | 문서의 root 요소를 선택                               |
 
 ### 가상 요소 선택자
